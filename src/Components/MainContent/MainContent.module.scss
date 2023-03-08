@@ -1,0 +1,17 @@
+.MainContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 4rem;
+
+  .imgContainer {
+    height: 20vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    img {
+      width: 100%;
+    }
+  }
+}

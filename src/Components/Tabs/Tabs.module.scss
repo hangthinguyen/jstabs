@@ -1,0 +1,31 @@
+.tabsContainer {
+  background-color: white;
+  border-radius: 8px;
+
+  .content {
+    padding: 1rem 1.5rem 1.5rem;
+    font-size: 0.9rem;
+
+    .title {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .btnsContainer {
+    padding: 0.5rem;
+    background: rgb(192, 198, 198);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+
+    .btn {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+    }
+  }
+}
